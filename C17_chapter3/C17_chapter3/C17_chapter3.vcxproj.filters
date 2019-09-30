@@ -30,5 +30,17 @@
     <ClCompile Include="algoritms_with_iter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="backward_wrapper_iter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enumerate_ranges_with_delimiter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="using_validated_iter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adapter_iter_packers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

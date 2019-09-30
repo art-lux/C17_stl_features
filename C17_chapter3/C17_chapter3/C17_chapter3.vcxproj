@@ -124,11 +124,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="adapter_iter_packers.cpp" />
     <ClCompile Include="algoritms_with_iter.cpp" />
+    <ClCompile Include="backward_wrapper_iter.cpp" />
+    <ClCompile Include="enumerate_ranges_with_delimiter.cpp" />
     <ClCompile Include="iter_wrapper_fill_containers.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="self_made_iterator.cpp" />
     <ClCompile Include="self_made_iter_compatibility_stl.cpp" />
+    <ClCompile Include="using_validated_iter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
