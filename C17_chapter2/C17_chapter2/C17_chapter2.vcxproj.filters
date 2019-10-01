@@ -59,5 +59,8 @@
     <ClInclude Include="vector_show.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="billionare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

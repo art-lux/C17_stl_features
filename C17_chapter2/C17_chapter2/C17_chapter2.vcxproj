@@ -139,6 +139,7 @@
     <ClCompile Include="using_set.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="billionare.h" />
     <ClInclude Include="vector_show.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

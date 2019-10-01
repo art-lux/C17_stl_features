@@ -4,14 +4,9 @@
 #include <map>
 #include <string>
 #include "vector_show.h"
+#include "billionare.h"
 
 using namespace std;
-
-struct billionaire {
-	string name;
-	double dollars;
-	string country;
-};
 
 void insert_in_map()
 {
@@ -38,12 +33,6 @@ void insert_in_map()
 			++(iterator->second.second);
 		}
 	}
-	for (const auto& [key, value] : m) {
-		const auto& [b, count] = value;
-		cout << b.country << " : " << count
-			<< " billionaires. Richest is "
-			<< b.name << " with " << b.dollars
-			<< " B$\n";
-	}
-	//vector_out(m);
+	
+	collection_out(m);
 }

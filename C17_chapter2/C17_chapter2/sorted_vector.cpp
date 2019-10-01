@@ -16,15 +16,15 @@ void sorted_vector()
 	vector<string> v{ "some", "random", "words",
 					  "without", "order", "aaa",
 					  "yyy" };
-	//collection_out(v);
+	collection_out(v);
 	assert(false == is_sorted(begin(v), end(v)));
 
 	sort(begin(v), end(v));
-	vector_out(v);
+	collection_out(v); // insead vector_out()
 	
 	assert(true == is_sorted(begin(v), end(v)));
 
 	insert_sorted(v, "foobar");
 	insert_sorted(v, "zzz");
-	vector_out(v);
+	collection_out(v); // insead vector_out()
 }

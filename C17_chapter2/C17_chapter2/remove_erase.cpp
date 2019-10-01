@@ -7,7 +7,7 @@
 void remove_erase()
 {
 	vector<int> v{ 1, 2, 3, 2, 5, 2, 6, 2, 4, 8 };
-	vector_out(v);
+	collection_out(v);
 
 	const auto new_end(remove(begin(v), end(v), 2));
 	vector_out(v);
