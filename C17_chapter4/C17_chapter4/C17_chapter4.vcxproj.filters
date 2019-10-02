@@ -30,5 +30,14 @@
     <ClCompile Include="complex_predicates_with_logic_conjunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="different_func_with_same_incoming_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_if_by_accumulate_n_lambda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian_product_with_any_input_at_compile_time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

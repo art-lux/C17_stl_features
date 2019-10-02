@@ -126,11 +126,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cartesian_product_with_any_input_at_compile_time.cpp" />
     <ClCompile Include="complex_predicates_with_logic_conjunction.cpp" />
+    <ClCompile Include="different_func_with_same_incoming_data.cpp" />
     <ClCompile Include="lambda_intro.cpp" />
     <ClCompile Include="lambda_with_function.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="make_function_by_concatenation.cpp" />
+    <ClCompile Include="transform_if_by_accumulate_n_lambda.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
