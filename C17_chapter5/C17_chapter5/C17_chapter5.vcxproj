@@ -124,11 +124,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="constrain_values_in_vector_by_clamp.cpp" />
     <ClCompile Include="copy_elements_between_containers.cpp" />
+    <ClCompile Include="find_patterns_in_string_by_search.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="make_data_sampling_from_large_vectors.cpp" />
+    <ClCompile Include="perform_permutations_in_input_sequences.cpp" />
     <ClCompile Include="remove_concrete_elem_from_containersremove_concrete_elem_from_containers.cpp" />
     <ClCompile Include="search_in_sorted_unsorted_vectors.cpp" />
     <ClCompile Include="sort_containers.cpp" />
+    <ClCompile Include="tool_for_merge_dictionaries.cpp" />
     <ClCompile Include="transforming_containers.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
